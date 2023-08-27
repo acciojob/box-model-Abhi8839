@@ -8,22 +8,23 @@
 	width:400px;
 	height:150px;
 	margin:70px;
-	padding:20px;
+	padding:50px;
 }
 .green{
-	alignment:center;
-	box-sizing:content-box;
-	text-align:center;
+/* 	alignment:center; */
+/* 	box-sizing:content-box; */
+/* 	text-align:center; */
 	float:left;
 	border-radius:100px;
 	background:green;
-	display:grid;
+	display:flex;
 	width:100px;
 	height:100px;
 	
 }
 .yellow{
 	alignment:center;
+	display:inline;
 	box-sizing:border-box;
 	text-align:center;
 	border-radius:100px;
@@ -38,11 +39,14 @@
 	box-sizing:content-box;
 	border-radius:100px;
 	background:red;
-	display:grid;
+	display:inline;
 	float:right;
 	width:100px;
 	height:100px;
 	float:right;
+	margin:100px;
+	box-sizing:content-box;
+	
 
 	
 }
